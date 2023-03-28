@@ -5,7 +5,10 @@ import time
 import random
 import sys
 
-time.sleep(30)  # Wait for user to switch to the window
+for i in range(1, 11):
+    print(f"Starting in {11 - i} seconds...")
+    time.sleep(1)
+
 
 pyautogui.FAILSAFE = False
 
